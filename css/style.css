@@ -1,0 +1,181 @@
+/*
+  Theme Name: Name - Multipurpose HTML Template
+  Author: Md.Omor Faruk
+  Support: nkomorfaruk@gmail.com
+  Description: Creative  HTML5 template.
+  Version: 1.0
+*/
+
+/* CSS Index 
+-----------------------------------
+1. Theme default css
+2. home
+3. about
+4. Igredients
+5. food Menu
+6. Reviews
+7. Reservations
+8. footer  
+*/
+.theme-color{
+  color: #fb5231;
+}
+.theme-bg{
+  background: #fb5231;
+}
+header{
+  background: url(../img/banner/b-1.jpg) no-repeat top center;
+  overflow: hidden;
+  background-size: cover;
+}
+header:hover{
+  background: url(../img/banner/b-2.jpg) no-repeat top center;
+  overflow: hidden;
+  background-size: cover;
+}
+
+.mother{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a{
+  display: block;
+  margin-left: -50px;
+}
+
+.nav ul li{
+  display: inline-flex;
+}
+
+.nav ul li a{
+  color: #fff;
+  padding: 40px 10px;
+}
+
+.nav ul li.active a{
+  color: red;
+}
+
+.nav ul li a:hover{
+  color: red;
+}
+
+.social-icon a{
+  color: #fff;
+  font-size: 22px;
+  padding: 30px 10px;
+}
+
+.social-icon a:hover{
+  color: red;
+}
+
+/* btn */
+
+.btn a{
+  padding: 10px 40px;
+  font-size: 20px;
+  color: #fff;
+  background: rgba(245, 238, 238, 0.274);
+  border: 1px solid #fff;
+  display: inline-flex;
+}
+
+.btn a:hover{
+  background: rgba(238, 5, 5, 0.61)
+}
+
+/* about section */
+
+.about{
+  background: url(../img/about/b-3.jpg) no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+img.second-img {
+  margin-left: -242px;
+  opacity: 0;
+  transition: 0.5s;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
+img.second-img:hover{
+  opacity:1;
+  transform: scale(1.1) rotate(5deg);
+  -webkit-transform: scale(1.1) rotate(5deg);
+  -moz-transform: scale(1.1) rotate(5deg);
+  -ms-transform: scale(1.1) rotate(5deg);
+  -o-transform: scale(1.1) rotate(5deg);
+}
+.para p {
+  width: 453px;
+  margin: auto;
+  line-height: 26px;
+}
+/* ingredients */
+
+.ingredients{
+  background: url(../img/ingredients/in.jpg) no-repeat top center;
+  background-size: cover;
+}
+.food-img img{
+  width:100%;
+}
+
+/* menu-area */
+
+.menu-area{
+  background: url(../img/banner/b-4.jpg) no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+.border{
+  border-bottom: 1px solid #a44c41;
+}
+.price h5{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+.price h5 sup {
+  background: #fb5231;
+  padding: 12px 20px;
+  position: absolute;
+  top: -16px;
+  left: 132px;
+  text-transform: capitalize;
+}
+
+/* gust review */
+.gust-review{
+  background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)), url(../img/banner/b-7.jpg) no-repeat top center;
+  background-size: cover;
+  overflow: hidden;
+}
+.review-info{
+  background: #fff;
+  transition: all 5s;
+  -webkit-transition: all 5s;
+  -moz-transition: all 5s;
+  -ms-transition: all 5s;
+  -o-transition: all 5s;
+}
+
+.review-info:hover{
+  background: rgba(0, 0, 0, 0.26);
+  color: #fff;
+}
+.para-2 h4 {
+  line-height: 45px;
+  padding: 0 138px;
+}
+.icon i{
+  color: yellow;
+  padding-left: 5px;
+  font-size: 24px;
+  margin-top: 50px;
+}
